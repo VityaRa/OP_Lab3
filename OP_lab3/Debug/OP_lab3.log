@@ -1,0 +1,89 @@
+﻿  LandTransport.cpp
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(6,32): error C2084: функция "LandTransport::LandTransport(void)" уже имеет текст реализации
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.h(12): message : см. предыдущее определение "{ctor}"
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(13,54): error C2084: функция "LandTransport::LandTransport(int,int)" уже имеет текст реализации
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.h(13): message : см. предыдущее определение "{ctor}"
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(21,33): error C2084: функция "LandTransport::~LandTransport(void)" уже имеет текст реализации
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.h(14): message : см. предыдущее определение "{dtor}"
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(27,40): error C2084: функция "void LandTransport::getTransportInfo(void)" уже имеет текст реализации
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.h(20): message : см. предыдущее определение "getTransportInfo"
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(32,28): error C2084: функция "void LandTransport::Stop(void)" уже имеет текст реализации
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.h(19): message : см. предыдущее определение "Stop"
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(36,16): error C2084: функция "Wheel::Wheel(void)" уже имеет текст реализации
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.h(27): message : см. предыдущее определение "{ctor}"
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(36,34): error C2264: LandTransport::LandTransport: ошибка в определении или объявлении функции; функция не вызвана
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(40,53): error C2084: функция "Wheel::Wheel(double,int,int)" уже имеет текст реализации
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.h(28): message : см. предыдущее определение "{ctor}"
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(40,85): error C2264: LandTransport::LandTransport: ошибка в определении или объявлении функции; функция не вызвана
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(48,17): error C2084: функция "Wheel::~Wheel(void)" уже имеет текст реализации
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.h(29): message : см. предыдущее определение "{dtor}"
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(54,20): error C2084: функция "void Wheel::Ride(void)" уже имеет текст реализации
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.h(30): message : см. предыдущее определение "Ride"
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(58,30): error C2084: функция "void Wheel::getWheelRadius(void)" уже имеет текст реализации
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.h(31): message : см. предыдущее определение "getWheelRadius"
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(62,21): error C2084: функция "void Wheel::Stop(void)" уже имеет текст реализации
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.h(32): message : см. предыдущее определение "Stop"
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(66,16): error C2084: функция "Track::Track(void)" уже имеет текст реализации
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.h(38): message : см. предыдущее определение "{ctor}"
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(66,34): error C2264: LandTransport::LandTransport: ошибка в определении или объявлении функции; функция не вызвана
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(70,53): error C2084: функция "Track::Track(double,int,int)" уже имеет текст реализации
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.h(39): message : см. предыдущее определение "{ctor}"
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(70,85): error C2264: LandTransport::LandTransport: ошибка в определении или объявлении функции; функция не вызвана
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(78,17): error C2084: функция "Track::~Track(void)" уже имеет текст реализации
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.h(40): message : см. предыдущее определение "{dtor}"
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(84,20): error C2084: функция "void Track::Ride(void)" уже имеет текст реализации
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.h(41): message : см. предыдущее определение "Ride"
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(88,30): error C2084: функция "void Track::getTrackLength(void)" уже имеет текст реализации
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.h(42): message : см. предыдущее определение "getTrackLength"
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(92,20): error C2084: функция "void Track::Stop(void)" уже имеет текст реализации
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.h(43): message : см. предыдущее определение "Stop"
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(97,12): error C2084: функция "Ski::Ski(void)" уже имеет текст реализации
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.h(49): message : см. предыдущее определение "{ctor}"
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(97,30): error C2264: LandTransport::LandTransport: ошибка в определении или объявлении функции; функция не вызвана
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(101,49): error C2084: функция "Ski::Ski(double,int,int)" уже имеет текст реализации
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.h(50): message : см. предыдущее определение "{ctor}"
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(101,81): error C2264: LandTransport::LandTransport: ошибка в определении или объявлении функции; функция не вызвана
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(109,13): error C2084: функция "Ski::~Ski(void)" уже имеет текст реализации
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.h(51): message : см. предыдущее определение "{dtor}"
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(115,18): error C2084: функция "void Ski::Ride(void)" уже имеет текст реализации
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.h(52): message : см. предыдущее определение "Ride"
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(119,26): error C2084: функция "void Ski::getSkiLength(void)" уже имеет текст реализации
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.h(53): message : см. предыдущее определение "getSkiLength"
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(123,18): error C2084: функция "void Ski::Stop(void)" уже имеет текст реализации
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.h(54): message : см. предыдущее определение "Stop"
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(127,26): error C2084: функция "Snowmobile::Snowmobile(void)" уже имеет текст реализации
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.h(61): message : см. предыдущее определение "{ctor}"
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(127,43): error C2264: LandTransport::LandTransport: ошибка в определении или объявлении функции; функция не вызвана
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(127,43): error C2264: Track::Track: ошибка в определении или объявлении функции; функция не вызвана
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(127,43): error C2264: Ski::Ski: ошибка в определении или объявлении функции; функция не вызвана
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(131,99): error C2084: функция "Snowmobile::Snowmobile(double,double,double,int,int)" уже имеет текст реализации
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.h(62): message : см. предыдущее определение "{ctor}"
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(131,199): error C2264: LandTransport::LandTransport: ошибка в определении или объявлении функции; функция не вызвана
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(131,199): error C2264: Track::Track: ошибка в определении или объявлении функции; функция не вызвана
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(131,199): error C2264: Ski::Ski: ошибка в определении или объявлении функции; функция не вызвана
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(138,27): error C2084: функция "Snowmobile::~Snowmobile(void)" уже имеет текст реализации
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.h(63): message : см. предыдущее определение "{dtor}"
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(144,25): error C2084: функция "void Snowmobile::Ride(void)" уже имеет текст реализации
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.h(64): message : см. предыдущее определение "Ride"
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(147,28): error C2084: функция "void Snowmobile::getSize(void)" уже имеет текст реализации
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.h(65): message : см. предыдущее определение "getSize"
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(150,24): error C2084: функция "void Snowmobile::Stop(void)" уже имеет текст реализации
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.h(66): message : см. предыдущее определение "Stop"
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(154,14): error C2084: функция "Tank::Tank(void)" уже имеет текст реализации
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.h(72): message : см. предыдущее определение "{ctor}"
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(154,33): error C2264: LandTransport::LandTransport: ошибка в определении или объявлении функции; функция не вызвана
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(154,33): error C2264: Wheel::Wheel: ошибка в определении или объявлении функции; функция не вызвана
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(154,33): error C2264: Track::Track: ошибка в определении или объявлении функции; функция не вызвана
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(157,95): error C2084: функция "Tank::Tank(double,double,double,int,int)" уже имеет текст реализации
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.h(73): message : см. предыдущее определение "{ctor}"
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(157,199): error C2264: LandTransport::LandTransport: ошибка в определении или объявлении функции; функция не вызвана
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(157,199): error C2264: Wheel::Wheel: ошибка в определении или объявлении функции; функция не вызвана
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(157,199): error C2264: Track::Track: ошибка в определении или объявлении функции; функция не вызвана
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(163,15): error C2084: функция "Tank::~Tank(void)" уже имеет текст реализации
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.h(74): message : см. предыдущее определение "{dtor}"
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(168,19): error C2084: функция "void Tank::Ride(void)" уже имеет текст реализации
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.h(75): message : см. предыдущее определение "Ride"
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(171,28): error C2084: функция "void Tank::getArmorWidth(void)" уже имеет текст реализации
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.h(76): message : см. предыдущее определение "getArmorWidth"
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.cpp(174,18): error C2084: функция "void Tank::Stop(void)" уже имеет текст реализации
+C:\Users\Витек\Desktop\OP_lab3\OP_lab3\LandTransport.h(77): message : см. предыдущее определение "Stop"
