@@ -1,6 +1,6 @@
 ﻿#include "LandTransport.h"
+#include <iostream>
 
-//#define DEBUG
 
 int main()
 {
@@ -21,7 +21,7 @@ int main()
     tankExample.getArmorWidth();
     tankExample.Ride();
     tankExample.Stop();
-    cout << "---------------------------------------------------" << endl;
+    std::cout << "---------------------------------------------------" << std::endl;
 
     Snowmobile snowMobileExample(SM_size, SM_trackLength, SM_skiLength, SM_model, SM_mileage);
     snowMobileExample.getTransportInfo();
@@ -30,7 +30,7 @@ int main()
     snowMobileExample.getSize();
     snowMobileExample.Ride();
     snowMobileExample.Stop();
-    cout << "---------------------------------------------------" << endl;
+    std::cout << "---------------------------------------------------" << std::endl;
 
 
 }

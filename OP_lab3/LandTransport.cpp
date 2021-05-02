@@ -1,7 +1,9 @@
 #include "LandTransport.h"
-#include <string>
+#include <iostream>
 using namespace std;
 
+//Uncomment to see constructors and destructors
+//#define DEBUG
 
 LandTransport::LandTransport() {
     this->model = rand() % 10000;
